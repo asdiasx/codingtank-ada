@@ -8,11 +8,11 @@ public class ConversorDeTemperaturas {
 
         System.out.println("Selecione uma unidade de origem:");
         String unidadeOrig = Services.selecionaUnidade();
-        System.out.println(unidadeOrig);
+
 
         System.out.println("Selecione a unidade transformada:");
         String unidadeTrans = Services.selecionaUnidade();
-        System.out.println(unidadeTrans);
+
 
         //Calcula novo array com temperaturas convertidas
         for (int i = 0; i < arrTempOrigem.length; i++) {
